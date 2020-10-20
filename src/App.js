@@ -2,7 +2,7 @@ import React from "react";
 import Articles from "./components/Articles";
 import User from "./components/User";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header>
@@ -15,6 +15,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
